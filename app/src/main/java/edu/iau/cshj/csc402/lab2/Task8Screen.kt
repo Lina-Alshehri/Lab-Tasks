@@ -53,7 +53,33 @@ fun Task8Screen(modifier: Modifier = Modifier) {
         }
 
         Spacer(modifier = Modifier.height(16.dp))
+        data class Student(
 
+            val name: String,
+
+            val program: String,
+
+            val gpa: String,
+
+            val email: String,
+
+            val city: String
+
+        )
+
+        @Composable
+
+        fun StudentCard(
+
+            student: Student, // required data first
+
+            modifier: Modifier = Modifier // modifier last, with a default
+
+        ) {
+
+// TODO: Task 2 fills this in
+
+        }
         // 2. حقول الإدخال (Text Fields)
         Column(
             modifier = Modifier
