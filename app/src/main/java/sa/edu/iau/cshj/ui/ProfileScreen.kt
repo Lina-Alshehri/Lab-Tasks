@@ -1,4 +1,4 @@
-package sa.edu.iau.cshj.ui
+package sa.edu.iau.cshj
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
